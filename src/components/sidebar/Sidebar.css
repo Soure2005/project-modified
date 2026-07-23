@@ -1,0 +1,81 @@
+.Sidebar {
+    width: 250px;
+    height: 100vh;
+    background-color: var(--bg-surface-low);
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    padding-top: 2rem;
+    transition: all 300ms ease;
+    overflow-y: auto;
+}
+
+.logo {
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    width: fit-content;
+    gap: 12px;
+
+
+
+}
+
+.logo img {
+    width: 52px;
+    height: 52px;
+    object-fit: contain;
+    display: block;
+}
+
+.logo span {
+    font-size: 28px;
+    font-weight: 700;
+    color: var(--color-primary);
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    margin-top: 2rem;
+}
+.menuItem {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    height: 3rem;
+    margin-left: 2rem;
+    position: relative;
+    transition: all 300ms ease;
+    font-size: 16px;
+
+}
+.logout{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.5rem;
+    border-top: 1px solid var(--color-outline-variant);
+    flex-shrink: 0;
+}
+
+.menuItem:hover:not(.active) {
+    background-color: var(--bg-surface-container);
+    cursor: pointer;
+}
+.active:before{
+content: '';
+width:8px ;
+height: 100%;
+background-color: var(--color-primary-container);
+margin-right: calc(1rem-8px);
+}
+.active{
+    background-color:var(--bg-surface-container) ;
+    margin-left: 0;
+}
+.logout:hover{
+    background-color: var(--bg-surface-container);
+     cursor: pointer;
+}

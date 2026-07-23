@@ -1,0 +1,28 @@
+import React from 'react'
+import './MainDash.css'
+import Cards from "../Cards/Cards";
+import QuickActions from "../QuickActions/QuickActions";
+import Performance from "../Performance/Performance"
+const MainDash = () => {
+    return (
+        <div className="MainDash">
+            <div className="overview">
+                <h1>Portfolio Overview</h1>
+                <p>
+                    Welcome back, your assets are performing
+                    <span> +12.4%</span> today.
+                </p>
+            </div>
+            <Cards />
+            <QuickActions />
+            <div className="bottomSection">
+                <Performance />
+               
+            </div>
+        </div>
+
+
+    )
+}
+
+export default MainDash

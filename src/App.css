@@ -1,0 +1,29 @@
+:root {
+    --bg-surface: #f7e9e7;
+    --bg-surface-low: #fff0ee;
+    --bg-surface-container: #ffe9e6;
+    --bg-surface-high: #ffe2de;
+    --bg-surface-highest: #fcdbd7;
+    --bg-surface-variant: #fcdbd7;
+    --color-primary: #ba0012;
+    --color-primary-container: #df2828;
+    --color-secondary: #a73831;
+    --color-tertiary: #00618d;
+    --color-on-surface: #281715;
+    --color-on-surface-variant: #5c3f3c;
+    --color-outline: #916f6b;
+    --color-outline-variant: #e6bdb8;
+    --color-error: #ba1a1a;
+  }
+ 
+  .App{
+    min-height: 100vh;
+    background-color: var(--bg-surface);
+    font-family: 'Inter', sans-serif;
+   
+    display:grid;
+   grid-template-columns:250px 1fr 320px;
+    
+}
+ 
+    
