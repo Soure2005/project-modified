@@ -3,9 +3,12 @@ import './MainDash.css'
 import Cards from "../Cards/Cards";
 import QuickActions from "../QuickActions/QuickActions";
 import Performance from "../Performance/Performance"
+import Navbar from "../Navbar/Navbar";
+
 const MainDash = () => {
     return (
         <div className="MainDash">
+             <Navbar />
             <div className="overview">
                 <h1>Portfolio Overview</h1>
                 <p>
@@ -20,8 +23,6 @@ const MainDash = () => {
                
             </div>
         </div>
-
-
     )
 }
 

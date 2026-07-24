@@ -1,12 +1,14 @@
 .MainDash{
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    padding: 2rem;
+    padding: 1.2rem;
 }
 
 .bottomSection{
-    margin-top: 2rem;
+    margin-top: 1rem;
     display: flex;
-    gap: 2rem;
+    gap: 1.5rem;
+}
+.overview{
+    margin-top: 1rem;
 }
