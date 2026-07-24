@@ -25,7 +25,7 @@ const Performance = () => {
         </div>
       </div>
 
-      <ResponsiveContainer width="100%" height={250}>
+      <ResponsiveContainer width="100%" height={180}>
         <LineChart data={PerformanceData}>
           <XAxis dataKey="month" />
           <YAxis />

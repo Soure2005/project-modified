@@ -4,11 +4,11 @@ import Cards from "../Cards/Cards";
 import QuickActions from "../QuickActions/QuickActions";
 import Performance from "../Performance/Performance"
 import Navbar from "../Navbar/Navbar";
-
+import RecentActivity from "../RecentActivity/RecentActivity";
 const MainDash = () => {
     return (
         <div className="MainDash">
-             <Navbar />
+            <Navbar />
             <div className="overview">
                 <h1>Portfolio Overview</h1>
                 <p>
@@ -20,7 +20,7 @@ const MainDash = () => {
             <QuickActions />
             <div className="bottomSection">
                 <Performance />
-               
+                <RecentActivity />
             </div>
         </div>
     )

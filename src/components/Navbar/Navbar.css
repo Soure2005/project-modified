@@ -2,7 +2,7 @@
     display:flex;
     justify-content:space-between;
     align-items:center;
-    padding:12px;
+    padding:8px 12px;
     border-bottom:1px solid #f3c9c5;
 }
 
@@ -10,9 +10,9 @@
     display:flex;
     align-items:center;
     gap:10px;
-    width:380px;
+    width:340px;
     background:#fff3f2;
-    padding:12px 20px;
+    padding:10px 16px;
     border-radius:30px;
     border:1px solid #f3c9c5;
 }
@@ -27,7 +27,7 @@
 .navRight{
     display:flex;
     align-items:center;
-    gap:30px;
+    gap:20px;
 }
 
 .userInfo{
