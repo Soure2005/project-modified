@@ -1,5 +1,5 @@
 import "./QuickActions.css";
-import { QuickActionsData } from "../../Data/QuickActionsData";
+import { QuickActionsData } from "../../../Data/QuickActionsData";
 
 const QuickActions = () => {
   return (

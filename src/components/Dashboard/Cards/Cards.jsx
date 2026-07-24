@@ -1,6 +1,6 @@
 import React from "react";
 import "./Cards.css";
-import { CardsData } from "../../Data/CardsData";
+import { CardsData } from "../../../Data/CardsData";
 
 const Cards = () => {
   return (

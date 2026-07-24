@@ -1,5 +1,5 @@
 import "./Performance.css";
-import { PerformanceData } from "../../Data/PerformanceData";
+import { PerformanceData } from "../../../Data/PerformanceData";
 
 import {
   LineChart,

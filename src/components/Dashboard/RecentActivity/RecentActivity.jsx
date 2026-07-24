@@ -1,5 +1,5 @@
 import "./RecentActivity.css";
-import { RecentActivityData } from "../../Data/RecentActivityData";
+import { RecentActivityData } from "../../../Data/RecentActivityData";
 
 const RecentActivity = () => {
   return (

@@ -10,7 +10,7 @@ const MainDash = () => {
         <div className="MainDash">
             <Navbar />
             <div className="overview">
-                <h1>Portfolio Overview</h1>
+                <h1>Dashboard Overview</h1>
                 <p>
                     Welcome back, your assets are performing
                     <span> +12.4%</span> today.

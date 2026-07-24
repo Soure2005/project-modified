@@ -16,6 +16,27 @@
     --color-error: #ba1a1a;
   }
  
+  .dark{
+    --bg-surface: #1f1a1a;
+    --bg-surface-low: #2a2323;
+    --bg-surface-container: #342b2b;
+    --bg-surface-high: #403535;
+    --bg-surface-highest: #4d4040;
+
+    --color-primary: #ff6b6b;
+    --color-primary-container: #ff8e8e;
+
+    --color-secondary: #ffb3b3;
+    --color-tertiary: #7ec8e3;
+
+    --color-on-surface: #f5f5f5;
+    --color-on-surface-variant: #d6d6d6;
+
+    --color-outline: #5d4f4f;
+    --color-outline-variant: #746565;
+
+    --color-error: #ff5a5a;
+}
   .App{
     min-height: 100vh;
     background-color: var(--bg-surface);

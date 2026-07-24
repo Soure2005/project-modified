@@ -1,34 +1,40 @@
 import {
-  LayoutDashboard,
-  Wallet,
-  ArrowLeftRight,
-  ChartColumn,
-  FileText,
-  Settings,
+    LayoutDashboard,
+    Wallet,
+    ArrowLeftRight,
+    ChartColumn,
+    FileText,
+    Settings,
 } from "lucide-react";
 export const SidebarData = [
     {
         icon: <LayoutDashboard />,
-        title: "Dashboard"
+        title: "Dashboard",
+        path: "/",
     },
     {
         icon: <Wallet />,
-        title: "Portfolio"
+        title: "Profile",
+        path: "/profile",
     },
     {
         icon: <ArrowLeftRight />,
-        title: "Transactions"
+        title: "Transactions",
+        path: "/transactions",
     },
     {
         icon: <ChartColumn />,
-        title: "Analytics"
+        title: "Market Leads",
+        path: "/market-leads",
     },
     {
         icon: <FileText />,
-        title: "Documents"
+        title: "Performance Report",
+        path: "/performance-report",
     },
     {
         icon: <Settings />,
-        title: "Settings"
-    }
-]
+        title: "Settings",
+        path: "/settings",
+    },
+];

@@ -1,7 +1,7 @@
 import "./Navbar.css";
 import { Bell, Search } from "lucide-react";
 import { useState } from "react";
-import userImage from "../../imgs/img1.png";
+import userImage from "../../../imgs/img1.png";
 const Navbar = () => {
     const [search, setSearch] = useState("");
     return (

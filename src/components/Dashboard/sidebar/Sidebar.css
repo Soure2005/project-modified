@@ -49,6 +49,8 @@
     position: relative;
     transition: all 300ms ease;
     font-size: 16px;
+    text-decoration: none;
+    color: black;
 
 }
 .logout{
@@ -78,4 +80,17 @@ margin-right: calc(1rem-8px);
 .logout:hover{
     background-color: var(--bg-surface-container);
      cursor: pointer;
+}
+.menuItem:visited{
+    color:black;
+}
+
+.menuItem:hover{
+    text-decoration:none;
+}
+.menuItem:link,
+.menuItem:visited,
+.menuItem:hover,
+.menuItem:active{
+    text-decoration: none;
 }
