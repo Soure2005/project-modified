@@ -5,7 +5,7 @@ import Profile from "./Pages/Profile";
 import Transactions from "./Pages/Transactions";
 import MarketLeads from "./Pages/MarketLeads";
 import PerformanceReport from "./Pages/PerformanceReport";
-import Settings from "./Pages/Settings";
+import SettingsPage from "./Pages/SettingsPage";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { useContext } from "react";
 import { ThemeContext } from "./Theme/ThemeContext";
@@ -26,7 +26,7 @@ function App() {
             <Route path="/transactions" element={<Transactions />} />
             <Route path="/market-leads" element={<MarketLeads />} />
             <Route path="/performance-report" element={<PerformanceReport />} />
-            <Route path="/settings" element={<Settings />} />
+            <Route path="/settings" element={<SettingsPage />} />
           </Routes>
         </main>
 

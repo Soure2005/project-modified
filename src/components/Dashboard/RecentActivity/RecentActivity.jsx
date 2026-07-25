@@ -1,11 +1,10 @@
-import "./RecentActivity.css";
+import styles from "./RecentActivity.module.css";
 import { RecentActivityData } from "../../../Data/RecentActivityData";
 
 const RecentActivity = () => {
   return (
-    <div className="recentActivity">
-
-      <div className="activityHeader">
+    <div className={styles.recentActivity}>
+      <div className={styles.activityHeader}>
         <h3>Recent Activity</h3>
         <button>View All</button>
       </div>
@@ -14,9 +13,8 @@ const RecentActivity = () => {
         const Icon = item.icon;
 
         return (
-          <div className="activityItem" key={index}>
-
-            <div className="leftSide">
+          <div className={styles.activityItem} key={index}>
+            <div className={styles.leftSide}>
               <Icon size={20} />
 
               <div>
@@ -26,11 +24,9 @@ const RecentActivity = () => {
             </div>
 
             <h4>{item.amount}</h4>
-
           </div>
         );
       })}
-
     </div>
   );
 };

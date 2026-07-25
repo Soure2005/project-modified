@@ -1,4 +1,4 @@
-import "./Performance.css";
+import styles from "./Performance.module.css";
 import { PerformanceData } from "../../../Data/PerformanceData";
 
 import {
@@ -12,12 +12,11 @@ import {
 
 const Performance = () => {
   return (
-    <div className="performance">
-
-      <div className="performanceHeader">
+    <div className={styles.performance}>
+      <div className={styles.performanceHeader}>
         <h2>Performance Index</h2>
 
-        <div className="buttons">
+        <div className={styles.buttons}>
           <button>1D</button>
           <button>1W</button>
           <button>1M</button>
@@ -33,8 +32,8 @@ const Performance = () => {
           <Line dataKey="value" stroke="#d32f2f" />
         </LineChart>
       </ResponsiveContainer>
-
     </div>
   );
 };
+
 export default Performance;

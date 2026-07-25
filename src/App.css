@@ -1,50 +1,61 @@
 :root {
-    --bg-surface: #f7e9e7;
-    --bg-surface-low: #fff0ee;
-    --bg-surface-container: #ffe9e6;
-    --bg-surface-high: #ffe2de;
-    --bg-surface-highest: #fcdbd7;
-    --bg-surface-variant: #fcdbd7;
-    --color-primary: #ba0012;
-    --color-primary-container: #df2828;
-    --color-secondary: #a73831;
-    --color-tertiary: #00618d;
-    --color-on-surface: #281715;
-    --color-on-surface-variant: #5c3f3c;
-    --color-outline: #916f6b;
-    --color-outline-variant: #e6bdb8;
-    --color-error: #ba1a1a;
-  }
- 
-  .dark{
-    --bg-surface: #1f1a1a;
-    --bg-surface-low: #2a2323;
-    --bg-surface-container: #342b2b;
-    --bg-surface-high: #403535;
-    --bg-surface-highest: #4d4040;
-
-    --color-primary: #ff6b6b;
-    --color-primary-container: #ff8e8e;
-
-    --color-secondary: #ffb3b3;
-    --color-tertiary: #7ec8e3;
-
-    --color-on-surface: #f5f5f5;
-    --color-on-surface-variant: #d6d6d6;
-
-    --color-outline: #5d4f4f;
-    --color-outline-variant: #746565;
-
-    --color-error: #ff5a5a;
+  --bg-surface: #f7e9e7;
+  --bg-surface-low: #fff0ee;
+  --bg-surface-container: #ffe9e6;
+  --bg-surface-high: #ffe2de;
+  --bg-surface-highest: #fcdbd7;
+  --bg-surface-variant: #fcdbd7;
+  --color-primary: #ba0012;
+  --color-primary-container: #df2828;
+  --color-secondary: #a73831;
+  --color-tertiary: #00618d;
+  --color-on-surface: #281715;
+  --color-on-surface-variant: #5c3f3c;
+  --color-outline: #916f6b;
+  --color-outline-variant: #e6bdb8;
+  --color-error: #ba1a1a;
+  --sidebar-bg-start: #fff5f2;
+  --sidebar-bg-end: #ffe9e5;
 }
-  .App{
-    min-height: 100vh;
-    background-color: var(--bg-surface);
-    font-family: 'Inter', sans-serif;
-   
-    display:grid;
-   grid-template-columns:250px 1fr 320px;
-    
+
+.dark {
+  /* Backgrounds */
+  --bg-surface: #171516;
+  /* Main page */
+  --bg-surface-low: #1E1A1B;
+  /* Sidebar */
+  --bg-surface-container: #272223;
+  /* Cards */
+  --bg-surface-high: #302A2B;
+  /* Hover */
+  --bg-surface-highest: #393233;
+
+  /* Brand */
+  --color-primary: #FF5B61;
+  --color-primary-container: #FF7A80;
+
+  --color-secondary: #F7A8A8;
+  --color-tertiary: #7EC8FF;
+
+  /* Text */
+  --color-on-surface: #F6F3F3;
+  --color-on-surface-variant: #B7AEAE;
+
+  /* Borders */
+  --color-outline: rgba(255, 255, 255, .08);
+  --color-outline-variant: rgba(255, 255, 255, .06);
+
+  --color-error: #FF6E6E;
+  --sidebar-bg-start: #201b1c;
+--sidebar-bg-end: #1b1819;
 }
- 
-    
+
+.App {
+  min-height: 100vh;
+  background-color: var(--bg-surface);
+  font-family: 'Inter', sans-serif;
+
+  display: grid;
+  grid-template-columns: 250px 1fr 320px;
+
+}

@@ -1,0 +1,154 @@
+.card {
+    background: var(--bg-surface-low);
+    border: 1px solid var(--color-outline-variant);
+    border-radius: 18px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 20px rgba(40, 23, 21, 0.05);
+    transition: all 0.3s ease;
+}
+
+.card:hover {
+    background: var(--bg-surface-container);
+    border-color: var(--color-primary-container);
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.5rem;
+}
+
+.header h2 {
+    margin: 0;
+    font-size: 1.7rem;
+    color: var(--color-on-surface);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.badge {
+    background: #ffe5e5;
+    color: var(--color-primary);
+
+    padding: 0.4rem 0.9rem;
+
+    border-radius: 999px;
+
+    font-size: 0.7rem;
+    font-weight: 700;
+}
+
+.topOptions {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+   gap: 1.25rem;
+
+    margin-bottom: 1.5rem;
+}
+
+.optionCard {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.2rem;
+    min-height: 90px;
+    border: 1px solid var(--color-outline-variant);
+    border-radius: 10px;
+
+    background: var(--bg-surface-container);
+}
+
+.optionCard h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--color-on-surface);
+}
+
+.optionCard p {
+    margin-top: 0.3rem;
+    font-size: 0.82rem;
+    color: var(--color-on-surface-variant);
+}
+
+.passwordSection {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+
+    border-top: 1px solid var(--color-outline-variant);
+}
+
+.passwordSection h4 {
+    margin: 0;
+    font-size: 1rem;
+    color: var(--color-on-surface);
+}
+
+.passwordSection p {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    color: var(--color-on-surface-variant);
+}
+
+.passwordButton {
+    background: transparent;
+    border: 1px solid var(--color-primary);
+
+    color: var(--color-primary);
+
+    padding: 0.75rem 1.3rem;
+
+    border-radius: 6px;
+
+    font-size: 0.75rem;
+    font-weight: 600;
+
+    cursor: pointer;
+
+    transition: all 0.3s ease;
+}
+
+.passwordButton:hover {
+    background: var(--color-primary);
+    color: white;
+}
+
+.sessions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+
+    border-top: 1px solid var(--color-outline-variant);
+}
+
+.sessions h4 {
+    margin: 0;
+    font-size: 1rem;
+}
+
+.sessions p {
+    margin-top: 0.3rem;
+    font-size: 0.8rem;
+    color: var(--color-on-surface-variant);
+}
+
+.sessionsLink {
+    color: var(--color-primary);
+    font-size: 0.75rem;
+    font-weight: 700;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.sessionsLink:hover {
+    text-decoration: underline;
+}
